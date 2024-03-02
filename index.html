@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Management Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="heading">
+            <h1>Task Management Dashboard</h1>
+            <div class="btn">
+                <button type="login">Login</button>
+            </div>
+        </div>
+    </header>
+    <div class="sec">
+        <form class="container" id="taskForm">
+            <input type="text" class="task-input" placeholder="Enter a task...">   
+            <button type="submit" class="taskbtn">Add Task</button>
+        </form>      
+    </div>
+
+    <div class="line"></div>
+
+    <div class="content">
+        <div class="grid-item1">
+            <h1>Pending Tasks</h1>
+            <ul id="pendingTasks" class="task-list">
+                
+            </ul>
+        </div>
+        <div class="grid-item2">
+            <h1>Completed Tasks</h1>
+            <ul id="completedTasks" class="task-list">
+                
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

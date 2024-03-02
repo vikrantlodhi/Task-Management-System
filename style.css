@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+}
+
+.heading {
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    background-color: rgb(0, 0, 0);
+    padding: 1px;
+}
+.heading h1 {
+    margin-left: 10px;
+    font-family: 'arial';
+    color: aliceblue;
+    font-size: 45px;
+    text-transform: uppercase;
+    text-align: left;
+}
+.btn {
+    text-align: right;
+}
+.btn button {
+    font-family: Arial;
+    text-transform: capitalize;
+    margin-right: 10%;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.sec {
+    background-color: rgb(55, 55, 55);
+    padding: 2%;
+    justify-content: center; /* Center horizontally */
+}
+.taskbtn {
+    padding: 10px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.task-input {
+    text-transform: uppercase;
+    border-radius: 20px;
+    border: none;
+    margin-left: 31%;
+    height: 35px;
+    width: 35%;
+}
+.line {
+    background-color:#ffffff;
+    padding: 1px;
+}
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0%;
+    background-color: rgb(33, 33, 33);
+}
+.grid-item2 {
+    color: #ffffff;
+    padding-bottom: 50%;
+    text-transform: capitalize;
+    font-family: arial;
+    background-color: rgba(33, 33, 33);
+    border-left: 1px solid rgba(255, 255, 255);
+    font-size: 20px;
+    text-align: center;
+}
+.grid-item1 {
+    color: #ffffff;
+    padding-bottom: 50%;
+    text-transform: capitalize;
+    font-family: arial;
+    background-color: rgba(33, 33, 33);
+    border-right: 1px solid rgba(255, 255, 255);
+    font-size: 20px;
+    text-align: center;
+}
+.task-list {
+    list-style-type: none;
+    padding: 0;
+}
+.task-item {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    margin: 4px 0;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+.task-item label {
+    flex-grow: 1;
+    margin-left: 8px;
+    color: #fff; 
+}
+.delete-btn {
+    background-color: #ff4136;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.mark-completed {
+    font-size: 12px;
+    color: #007bff;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.completed label {
+    text-decoration: line-through; 
+    color: rgba(255, 255, 255, 0.5); 
+}
